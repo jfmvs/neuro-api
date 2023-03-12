@@ -1,7 +1,6 @@
 """Main module."""
 import uvicorn
 from fastapi import FastAPI
-import pickle
 from api.routers import router
 
 
